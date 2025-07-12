@@ -1,17 +1,48 @@
-## Running React on Replit
+# 📝 Taskify - React Todo App
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Taskify is a simple and responsive Todo List web app built using **React.js**. It allows users to add, filter (All, Completed, Ongoing), complete, and delete tasks. The app also uses **localStorage** to persist data even after the browser is refreshed.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## 🚀 Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- ✅ Add new tasks
+- 📂 Filter tasks: All, Completed, Ongoing
+- 🗑️ Delete tasks
+- 💾 Save tasks using `localStorage`
+- 🎨 Styled with clean and modern CSS
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## 🛠️ Tech Stack
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- React.js (with Hooks)
+- HTML5
+- CSS3
+- LocalStorage (for persistence)
 
-### Typescript
+1. **Clone the Repository**
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+```bash
+git clone https://github.com/yourusername/taskify-react.git
+cd taskify-react
+```
+
+2. **Install Dependencies**
+```bash
+npm install
+```
+3.  **run the app**
+```bash
+npm run dev
+```
+## 🧹 Improvements for Future
+Add task due dates
+
+Add dark/light mode toggle
+
+Use a backend like Firebase or MongoDB for full-stack version
+
+Add animations and transitions
+
+### 🙋‍♂️ Author
+Made with ❤️ by ghostnumbz
+
+
+   
