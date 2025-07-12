@@ -1,0 +1,87 @@
+.container {
+  text-align: center;
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  padding: 10px;
+  width: 70%;
+}
+
+.input-group button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Hover effect */
+.filters button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Active/clicked effect */
+.filters button:active {
+  background-color: #dcdcdc;
+  color: black;
+}
+
+/* Optional: Add selected state for currently active filter */
+.filters button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.task-list span {
+  cursor: pointer;
+}
+
+.task-list .completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-list button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
